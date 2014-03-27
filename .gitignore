@@ -1,0 +1,12 @@
+# code stuff
+node_modules
+build
+private
+
+# Generic shite
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes

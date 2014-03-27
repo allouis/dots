@@ -1,0 +1,13 @@
+# Navigation
+alias cd..="cd .."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias --="cd -"
+alias ``="cd ~"
+
+alias vi="vim"
+alias v="vim"
+
+alias g="git"

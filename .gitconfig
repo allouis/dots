@@ -1,0 +1,35 @@
+[alias]
+  ocmmit = commit
+  c = commit -m
+  s = status -s
+  diff = diff --color --color-words --abbrev
+  log = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color]
+  ui = always
+[core]
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+  editor = 'vim'
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[merge]
+  log = true
+[url "git@github.com:allouis/"]
+  insteadOf = "git://github.com/allouis/"
+  insteadOf = "https://github.com/allouis/"
+[user]
+  name = Fabien O'Carroll
+  email = fabien@allou.is
+[push]
+  default = current
