@@ -21,6 +21,9 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'scrooloose/syntastic'
 
+" coffeescript syntax
+Bundle 'kchmck/vim-coffee-script'
+
 " typescript
 Bundle 'leafgarland/typescript-vim'
 
