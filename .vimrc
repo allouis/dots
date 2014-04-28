@@ -129,6 +129,9 @@ nmap gb :Gblame<Cr>
 " i don't use this tbh
 map gh :Gbrowse<Cr>
 
+""" useful shiz
+nnoremap ; :
+
 """ buffer management
 
 " 
