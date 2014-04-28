@@ -119,10 +119,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 nmap <Leader>fs :NERDTreeToggle<Cr>
 
 """ git stuff
-nmap <Leader>gs :Gstatus<Cr>
-nmap <Leader>gb :Gblame<Cr>
+nmap gs :Gstatus<Cr>
+nmap gc :Gcommit<Cr>
+nmap gb :Gblame<Cr>
 " open file in github
-map <Leader>gh :Gbrowse<Cr>
+" i don't use this tbh
+map gh :Gbrowse<Cr>
 
 """ buffer management
 
