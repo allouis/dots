@@ -27,6 +27,9 @@ Bundle 'kchmck/vim-coffee-script'
 " typescript
 Bundle 'leafgarland/typescript-vim'
 
+" markdown stuffs
+Bundle 'plasticboy/vim-markdown'
+
 " jshint
 Bundle 'walm/jshint.vim'
 
