@@ -11,3 +11,5 @@ alias vi="vim"
 alias v="vim"
 
 alias g="git"
+alias pull="git pull"
+alias push="git push"
