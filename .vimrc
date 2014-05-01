@@ -127,6 +127,7 @@ nmap <Leader>fs :NERDTreeToggle<Cr>
 nmap gs :Gstatus<Cr>
 nmap gc :Gcommit<Cr>
 nmap gb :Gblame<Cr>
+nnoremap gp :!git push<Cr>
 " open file in github
 " i don't use this tbh
 map gh :Gbrowse<Cr>
