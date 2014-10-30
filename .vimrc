@@ -39,13 +39,16 @@ Bundle 'Lokaltog/vim-powerline'
 " colors
 Bundle 'altercation/vim-colors-solarized'
 
+" deck
+Bundle 'vim-scripts/SyntaxRange'
+
 filetype plugin indent on
 
 " setup solarized
 syntax enable
-set background=dark
+set background=light
 let g:solarized_termcolors = &t_Co
-let g:solarized_termtrans = 1
+"let g:solarized_termtrans = 1
 colorscheme solarized
 
 " leader as `
@@ -85,7 +88,7 @@ set magic " Enable extended regexes.
 set noerrorbells " Disable error bells.
 set nojoinspaces " Only insert single space after a '.', '?' and '!' with a join command.
 set nostartofline " Don't reset cursor to start of line when moving around.
-set nowrap " Do not wrap lines.
+"set nowrap " Do not wrap lines.
 set nu " Enable line numbers.
 set ofu=syntaxcomplete#Complete " Set omni-completion method.
 set report=0 " Show all changes.
